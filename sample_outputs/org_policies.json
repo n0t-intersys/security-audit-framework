@@ -1,0 +1,19 @@
+{
+  "organization": "Acme Corporation",
+  "last_updated": "2025-01-15",
+  "policies": [
+    {"id": "POL-001", "name": "Information Security Policy", "version": "3.2", "owner": "CISO", "last_review": "2024-06-01"},
+    {"id": "POL-002", "name": "Acceptable Use Policy", "version": "2.1", "owner": "IT", "last_review": "2024-03-15"},
+    {"id": "POL-003", "name": "Access Control and Identity Management Policy", "version": "1.8", "owner": "IT Security", "last_review": "2024-09-01"},
+    {"id": "POL-004", "name": "Password and Authentication Policy", "version": "2.0", "owner": "IT Security", "last_review": "2024-01-10"},
+    {"id": "POL-005", "name": "Incident Management and Response Policy", "version": "1.5", "owner": "Security Operations", "last_review": "2024-04-20"},
+    {"id": "POL-006", "name": "Remote Working and BYOD Policy", "version": "1.3", "owner": "HR/IT", "last_review": "2024-07-01"},
+    {"id": "POL-007", "name": "Data Classification Policy", "version": "1.1", "owner": "Data Governance", "last_review": "2024-02-28"},
+    {"id": "POL-008", "name": "Backup and Disaster Recovery Policy", "version": "2.2", "owner": "IT Infrastructure", "last_review": "2024-08-15"},
+    {"id": "POL-009", "name": "Vulnerability Management Policy", "version": "1.0", "owner": "Security", "last_review": "2024-11-01"},
+    {"id": "POL-010", "name": "Physical Security Policy", "version": "1.4", "owner": "Facilities/IT", "last_review": "2024-05-10"},
+    {"id": "POL-011", "name": "Security Awareness Training Policy", "version": "1.2", "owner": "HR/Security", "last_review": "2024-09-30"},
+    {"id": "POL-012", "name": "Privacy and Data Protection Policy", "version": "2.0", "owner": "Legal/DPO", "last_review": "2024-01-20"},
+    {"id": "POL-013", "name": "HR Security and Background Check Policy", "version": "1.6", "owner": "HR", "last_review": "2024-06-15"}
+  ]
+}

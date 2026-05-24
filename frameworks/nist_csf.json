@@ -1,0 +1,78 @@
+{
+  "framework": "NIST Cybersecurity Framework 2.0",
+  "version": "2.0",
+  "published": "2024-02-26",
+  "functions": [
+    {
+      "id": "GV",
+      "name": "GOVERN",
+      "description": "The organization's cybersecurity risk management strategy, expectations, and policy are established, communicated, and monitored.",
+      "categories": [
+        {"id": "GV.OC", "name": "Organizational Context", "description": "The circumstances — mission, stakeholder expectations, dependencies, legal/regulatory requirements — surrounding the organization's cybersecurity risk decisions are understood."},
+        {"id": "GV.RM", "name": "Risk Management Strategy", "description": "The organization's priorities, constraints, risk tolerance and appetite statements, and assumptions are established, communicated, and used to support operational risk decisions."},
+        {"id": "GV.RR", "name": "Roles, Responsibilities, and Authorities", "description": "Cybersecurity roles, responsibilities, and authorities to foster accountability, performance assessment, and continuous improvement are established and communicated."},
+        {"id": "GV.PO", "name": "Policy", "description": "Organizational cybersecurity policy is established, communicated, and enforced."},
+        {"id": "GV.OV", "name": "Oversight", "description": "Results of organization-wide cybersecurity risk management activities and performance are used to inform, improve, and adjust the risk management strategy."},
+        {"id": "GV.SC", "name": "Cybersecurity Supply Chain Risk Management", "description": "Cyber supply chain risk management processes are identified, established, managed, monitored, and improved by organizational stakeholders."}
+      ]
+    },
+    {
+      "id": "ID",
+      "name": "IDENTIFY",
+      "description": "The organization's current cybersecurity risks are understood.",
+      "categories": [
+        {"id": "ID.AM", "name": "Asset Management", "description": "Assets (data, hardware, software, systems, facilities, services, people) that enable the organization to achieve business purposes are identified and managed consistent with their relative importance to organizational objectives and risk strategy."},
+        {"id": "ID.RA", "name": "Risk Assessment", "description": "The cybersecurity risk to the organization, assets, and individuals is understood by the organization."},
+        {"id": "ID.IM", "name": "Improvement", "description": "Improvements to organizational cybersecurity risk management processes, procedures and activities are identified across all CSF Functions."}
+      ]
+    },
+    {
+      "id": "PR",
+      "name": "PROTECT",
+      "description": "Safeguards to manage the organization's cybersecurity risks are used.",
+      "categories": [
+        {"id": "PR.AA", "name": "Identity Management, Authentication, and Access Control", "description": "Access to physical and logical assets is limited to authorized users, services, and hardware and managed commensurate with the assessed risk of unauthorized access."},
+        {"id": "PR.AT", "name": "Awareness and Training", "description": "The organization's personnel are provided with cybersecurity awareness and training so that they can perform their cybersecurity-related tasks."},
+        {"id": "PR.DS", "name": "Data Security", "description": "Data are managed consistent with the organization's risk strategy to protect the confidentiality, integrity, and availability of information."},
+        {"id": "PR.PS", "name": "Platform Security", "description": "The hardware, software (e.g., firmware, operating systems, applications), and services of physical and virtual platforms are managed consistent with the organization's risk strategy."},
+        {"id": "PR.IR", "name": "Technology Infrastructure Resilience", "description": "Security architectures are managed with the organization's risk strategy to protect asset confidentiality, integrity, and availability, and organizational resilience."}
+      ]
+    },
+    {
+      "id": "DE",
+      "name": "DETECT",
+      "description": "Possible cybersecurity attacks and compromises are found and analyzed.",
+      "categories": [
+        {"id": "DE.CM", "name": "Continuous Monitoring", "description": "Assets are monitored to find anomalies, indicators of compromise, and other potentially adverse events."},
+        {"id": "DE.AE", "name": "Adverse Event Analysis", "description": "Anomalies, indicators of compromise, and other potentially adverse events are analyzed to characterize the events and detect cybersecurity incidents."}
+      ]
+    },
+    {
+      "id": "RS",
+      "name": "RESPOND",
+      "description": "Actions regarding a detected cybersecurity incident are taken.",
+      "categories": [
+        {"id": "RS.MA", "name": "Incident Management", "description": "Responses to detected cybersecurity incidents are managed."},
+        {"id": "RS.AN", "name": "Incident Analysis", "description": "Investigations are conducted to ensure effective response and support forensics and recovery activities."},
+        {"id": "RS.CO", "name": "Incident Response Reporting and Communication", "description": "Response activities are coordinated with internal and external stakeholders as required by laws, regulations, or policies."},
+        {"id": "RS.MI", "name": "Incident Mitigation", "description": "Activities are performed to prevent expansion of an event and mitigate its effects."}
+      ]
+    },
+    {
+      "id": "RC",
+      "name": "RECOVER",
+      "description": "Assets and operations affected by a cybersecurity incident are restored.",
+      "categories": [
+        {"id": "RC.RP", "name": "Incident Recovery Plan Execution", "description": "Restoration activities are performed to ensure operational availability of systems and services affected by cybersecurity incidents."},
+        {"id": "RC.CO", "name": "Incident Recovery Communication", "description": "Restoration activities are coordinated with internal and external parties."}
+      ]
+    }
+  ],
+  "maturity_levels": {
+    "1": "Partial — Risk management practices are not formalized; risk managed ad hoc.",
+    "2": "Risk Informed — Risk management practices are approved by management but not established as organizational-wide policy.",
+    "3": "Repeatable — Risk management practices are formally approved and expressed as policy.",
+    "4": "Adaptive — The organization adapts its cybersecurity practices based on lessons learned and predictive indicators.",
+    "5": "Optimizing — The organization continuously improves and innovates cybersecurity practices based on current and predicted cybersecurity activities."
+  }
+}
