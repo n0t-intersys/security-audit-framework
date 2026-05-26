@@ -1,20 +1,12 @@
-# security-audit-framework
-
-```
-┌────────────────────────────────────────────────────────────────────────┐
-│  Security Audit & Compliance Framework                                  │
-│  NIST CSF 2.0 · CIS Benchmarks · Risk Register · GRC Automation        │
-└────────────────────────────────────────────────────────────────────────┘
-```
+# GRC & Compliance Automation
 
 [![CI](https://github.com/n0t-intersys/security-audit-framework/actions/workflows/ci.yml/badge.svg)](https://github.com/n0t-intersys/security-audit-framework/actions)
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue?logo=python)](https://python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![NIST CSF 2.0](https://img.shields.io/badge/NIST-CSF_2.0-005A9C?logo=nist)](https://www.nist.gov/cyberframework)
+[![NIST CSF 2.0](https://img.shields.io/badge/NIST-CSF_2.0-005A9C)](https://www.nist.gov/cyberframework)
 [![ISO 27001](https://img.shields.io/badge/ISO-27001:2022-blue)](https://www.iso.org/standard/27001)
 
-A Python-based GRC toolkit demonstrating compliance and risk management expertise.
-All tools use only the Python standard library — no API keys or cloud accounts required.
+Compliance work generates a lot of repetitive documentation. This is my attempt to automate the parts that shouldn't require a consultant — NIST CSF 2.0 maturity scoring, CIS benchmark checks, a proper risk register with likelihood/impact scoring, policy gap analysis against ISO 27001/SOC 2/HIPAA, and IR playbook generation for the five incident types I see most often.
 
 ---
 
